@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API.tugas5.BaseAPITest">
+      <class name="selenium.test.FlightsBooking">
         <methods>
-          <include name="tesDaftar"/>
+          <include name="flightorder"/>
         </methods>
-      </class> <!-- API.tugas5.BaseAPITest -->
+      </class> <!-- selenium.test.FlightsBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
